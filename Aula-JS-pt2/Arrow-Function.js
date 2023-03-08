@@ -1,0 +1,36 @@
+/*
+- Funcion 
+
+Arrow
+
+*/
+
+
+/*const sum = function (number1, number2) { 
+
+    const result = number1 + number2
+    
+    return result
+}
+
+*/
+
+/*
+const sum = (number1, number2) => { //Function Arrow - quando o código for longo será necessário colocar o return
+    number1 + number2
+}
+
+*/
+
+const sum = (number1, number2) => number1 + number2 // <- Arrow function / Quando o código for curto não há necessidade colcar o return
+
+
+const firstNumber = 10
+const seccondNumber = 20
+
+console.log(`O primeiro número é ${firstNumber}`)
+console.log(`O segundo número é ${seccondNumber}`)
+
+const result = sum(firstNumber, seccondNumber) //<- result tbm pode ser armazenado em uma variável
+
+console.log(`E a soma dos dois é ${result}`)
