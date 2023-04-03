@@ -15,5 +15,5 @@ const sequence = (number) => {
   }
 }
 
-sequence(9)
+sequence(10)
 
